@@ -1,0 +1,6 @@
+exec master.sys.xp_copy_file 'C:\Users\henite\Desktop\File1.txt', 'J:\BACKUJPS\RESTORE\'
+exec master.sys.xp_copy_file 'C:\Users\henite\Desktop\*.csv', 'J:\BACKUJPS\RESTORE\'
+exec master.sys.xp_copy_file 'C:\Users\henite\Desktop\*.jpg', 'J:\BACKUJPS\RESTORE\'
+exec master.sys.xp_copy_file 'C:\Users\henite\Desktop\*.xlsx', 'J:\BACKUJPS\RESTORE\'
+exec master.sys.xp_copy_file 'C:\Users\henite\Desktop\*.bak', 'J:\BACKUJPS\RESTORE\'
+exec master.sys.xp_copy_file 'C:\Users\henite\Desktop\*.png', 'J:\BACKUJPS\RESTORE\' 
